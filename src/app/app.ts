@@ -11,7 +11,7 @@ import { Header } from './components/header/header';
     CommonModule, 
     RouterOutlet, 
     RouterModule,
-    Header  
+    Header
   ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
