@@ -61,19 +61,19 @@ export class ProductService {
       inStock:true
     },
     {
-      
+
       id: 6,
       name: 'Chanel No. 5',
       brand: 'Chanel',
       price: 100,
       description: 'Un parfum iconique et intemporel, symbole de l\'élégance française.',
-      imageUrl: 'https://th.bing.com/th/id/OIF.iAGk7xyoqChgXyJTiHFMcA?w=205&h=191&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+      imageUrl: 'https://www.lamode.tn/27963-large_default/eau-de-toilette-femme-chanel-n5-chanel-l-eau.webp',
       category:'Femme',
       volume:'100ml',
       inStock:true
     },
     {
-      
+
       id: 7,
       name: 'Miss Dior',
       brand: 'Dior',
@@ -85,7 +85,7 @@ export class ProductService {
       inStock:true
     },
     {
-      
+
       id: 8,
       name: 'Poison Girl',
       brand: 'Dior',
@@ -97,7 +97,7 @@ export class ProductService {
       inStock:true
     },
     {
-      
+
       id: 9,
       name: 'Prada',
       brand: 'Paradoxe Intense',
@@ -109,7 +109,7 @@ export class ProductService {
       inStock:true
     },
     {
-      
+
       id: 10,
       name: 'L\'homme',
       brand: 'Yves Saint Laurent',
@@ -120,6 +120,49 @@ export class ProductService {
       volume:'100ml',
       inStock:true
     },
+
+{
+
+      id: 11,
+      name: 'Hugo boss ',
+      brand: 'Hugo boss ',
+      price: 281,
+      description: 'Hugo boss the scent absolute homme eau de parfum',
+      imageUrl:'https://www.bonheur.tn/6926-large_default/hugo-boss-the-scent-absolute-homme-eau-de-parfum.jpg',
+      category:'Homme',
+      volume:'100ml',
+      inStock:true
+    },
+
+{
+
+      id: 12,
+      name: 'Homme Moderne ',
+      brand: 'ARVEA ',
+      price: 58,
+      description: 'L’Homme Moderne est un parfum boisé, marin',
+      imageUrl:'https://arveaporduction.s3.eu-west-3.amazonaws.com/arvea-nature.com/arvealab/product/eedca0e246ddb26d784e1842b7d7709f.webp',
+      category:'Homme',
+      volume:'50ml',
+      inStock:true
+    },
+
+{
+
+      id: 13,
+      name: 'New Look, Dior ',
+      brand: 'DIOR',
+      price: 450,
+      description: 'L’éloge du cool : New Look, Dior',
+      imageUrl:'https://www.leshardis.com/wp-content/uploads/2024/06/Y0997153_C099700382_E02_GHC.jpeg',
+      category:'Homme',
+      volume:'125ml',
+      inStock:true
+    },
+
+
+
+
   ];
   getProducts():Product[]{
     return this.products;
